@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootsrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- AOS animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Event Management</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Arapey:ital@0;1&family=Caladea:ital,wght@0,400;0,700;1,400;1,700&family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yellowtail&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navigation -->
+    <div  class="container-fluid fixed-top" >
+        <nav class="navbar navbar-expand-lg rounded-5 " style="background-color: rgb(227 211 195);" >
+            <div class="container-fluid ms-5">
+              <a class="navbar-brand" href="#"><img class="img-fluid" src="./images/event-logo.png"
+                 style="height: 80px; width: 250px;" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ms-auto mb-2 me-5  mb-lg-0 fs-3 fw-bolder" style="font-family: Caladea, serif;
+                    font-weight: 400; ">
+                  <li class="nav-item">
+                    <a class="nav-link active me-2"  aria-current="page"   href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active me-2" aria-current="page"  href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active me-2" aria-current="page"  href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active me-2" aria-current="page"  href="#">Events</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active me-2" aria-current="page"  href="#">Contact Us</a>
+                  </li>
+                  
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+    </div>
+    <!-- carousel -->
+    <div class="container-fluid">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item slideshow-wrapper active" data-bs-interval="2000">
+                <img src="./images/event1.jpg" class="d-block w-100" alt="...">
+                <!-- <div class="carousel-caption d-none d-md-block"   >
+                    <h1 style="margin-top: -40%; font-size: 40px;">Every detail is important
+
+                    </h1>
+                    <h5>and we look to protect that at every point of contact</h5>
+                  </div> -->
+              </div>
+              <div class="carousel-item slideshow-wrapper" data-bs-interval="2000">
+                 <img src="./images/event2.jpg" class="d-block w-100"  alt="..."> 
+                 
+                <!-- <div class="carousel-caption d-none d-md-block" >
+                  <h1 style="margin-top: -40%;">Every detail is important
+
+                  </h1>
+                  <h5>and we look to protect that at every point of contact</h5>
+                  </div> -->
+              </div>
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <div class="container mb-5 mt-5">
+      <h2 class="main-head text-center" style="font-family: Alegreya, serif;">ABOUT US</h2>
+        <h4 class="main-head text-center" style="font-family: Great Vibes, cursive; font-weight: 900;
+        font-style: normal;">Introduction
+         </h4>
+      <div class="row">
+        
+        <div class="col-md-6 col-sm-12 mb-2 mt-5" data-aos="fade-down">
+          <h1 class="text-center mt-5  fst-italic text-dark fw-bolder" style="font-family: Arapey, serif;">We are the top players in the field</h1>
+          <p class="text-center fs-5 mt-3 " style="font-family: Caladea, serif;">Have you ever dreamed of planning the perfect event to be remembered forever? Look no further than Izza Events, the top-notch event management company in Kerala that has all you need to make your occasion an unforgettable experience. We make everything from corporate event planning and wedding parties to customized event packages absolutely memorable!</p>
+        </div>
+        <div class="col-md-6 col-sm-12 mb-2 ">
+          <img src="./images/gal3.jpg" class="img-fluid img-thumbnail rounded-5" data-aos="fade-up" style="width: 100%;" alt="">
+          <!-- <div class="container ms-5">
+            <div class="parent">
+              <img class="image1 img-fluid" style="height:450px;" data-aos="fade-up-right" data-aos-duration="2000" src="./images/vertical5.webp" />
+              <img class="image2 img-fluid" style="height: 450px;" data-aos="fade-up-left" data-aos-duration="2000" src="./images/vertical6.jfif" />
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+   
+    <!-- events -->
+    <div class="container" >
+      <div class="section-head text-center mt-5 mb-5">
+       
+        <h2 class="main-head" style="font-family: Alegreya, serif;">WHAT WE OFFER</h2>
+        <h4 class="main-head" style="font-family: Great Vibes, cursive; font-weight: 900;
+        font-style: normal;">Services Provided by Izza Events
+         </h4>
+      </div>
+      <div class="row fw-bolder" style="font-family: Caladea, serif;">
+        <div class="col-lg-6 col-sm-12" data-aos="zoom-in">
+          <img src="./images/wedding.jpg" class="img-fluid rounded-5 img-thumbnail" alt="">
+        </div>
+        <div class="col-lg-6 col-sm-12 text-center mt-5" >
+          <h2 class="mt-3">Wedding and Engagement</h2>
+          <p class="mt-3">Every bride and groom dreams of having the perfect wedding, but planning that can be quite a task. Throw in all of the cultural nuances associated with ethnic weddings and the task can become overwhelming. We work directly with you and your families to handle all of aspects of your wedding. The result is an extraordinary event that is just as you envisioned.</p>
+        </div>
+        <div class="col-lg-6 col-sm-12 text-center mt-5" >
+          <h2 class="mt-5">Destination Weddings</h2>
+          <p class="mt-3">Plan your dream wedding through us at the dreamy hotspots in God's Own Country. We work directly with you to discover the perfect location and to ensure that all the details are in place for your big day.</p>
+        </div>
+        <div class="col-lg-6 col-sm-12" data-aos="zoom-in">
+          <img src="./images/Kerala-1.webp" class="img-fluid rounded-5 img-thumbnail" alt="">
+        </div>
+        <div class="col-lg-6 col-sm-12 mt-5" data-aos="zoom-in">
+          <img src="./images/corporate.jpg" class="img-fluid rounded-5 img-thumbnail" alt="">
+        </div>
+        <div class="col-lg-6 col-sm-12 text-center mt-5" >
+          <h2 class="mt-5">Corporate Events and Conferences</h2>
+          <p class="mt-3">We are at your service to execute your Corporate event, from simple luncheons to large black-tie galas. We bring sharpness and flair to any corporate event to wow your clients and colleagues with an unforgettable event.</p>
+        </div>
+        <div class="col-lg-6 col-sm-12 text-center mt-5" >
+          <h2 class="mt-5">Social Events</h2>
+          <p class="mt-3">We are a full-service event planning company for any occasion – a Lavish Baby Shower, Birthday Party, Anniversary Party, or Sweet 16. Let us take care of the planning so that you and your guests can relax and enjoy your event stress-free. From location selection to invitation design to the perfect signature drink, we welcome the opportunity to assist you.</p>
+        </div>
+        <div class="col-lg-6 col-sm-12" data-aos="zoom-in">
+          <img src="./images/social.webp" class="img-fluid rounded-5 img-thumbnail" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- gallery -->
+    <div class="container">
+      <div class="section-head text-center mt-5 mb-5">
+       
+        <h2 class="main-head" style="font-family: Alegreya, serif;">HIGHLIGHTS</h2>
+        <h4 class="main-head" style="font-family: Great Vibes, cursive; font-weight: 900;
+        font-style: normal;">Our Gallery
+         </h4>
+      </div>
+      <div class="row gal mb-5">
+        <h2 class="main-head text-center mt-5 mb-5 text-light fw-bolder" style="font-family: Caladea, serif;">GALLERY</h2>
+        <div class="col-lg-3 col-md-6 col-sm-12 gal-img mt-5 mb-5">
+          <img src="./images/gal1.jpg" class="img-fluid rounded-3 img-thumbnail" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 gal-img mt-5 mb-5">
+          <img src="./images/gal10.avif" class="img-fluid rounded-3 img-thumbnail" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 gal-img mt-5 mb-5">
+          <img src="./images/gal3.jpg" class="img-fluid rounded-3 img-thumbnail" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 gal-img mt-5 mb-5">
+          <img src="./images/gal4.jpeg" class="img-fluid rounded-3 img-thumbnail" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 gal-img mt-5 mb-5">
+          <img src="./images/gal5.jpeg" class="img-fluid rounded-3 img-thumbnail" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 gal-img mt-5 mb-5">
+          <img src="./images/gal6.jpeg" class="img-fluid rounded-3 img-thumbnail" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 gal-img mt-5 mb-5">
+          <img src="./images/gal7.jpg" class="img-fluid rounded-3 img-thumbnail" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 gal-img mt-5 mb-5">
+          <img src="./images/gal8.jpg" class="img-fluid rounded-3 img-thumbnail" alt="">
+        </div>
+      </div>
+    </div>
+     <!-- what we offer -->
+     <div class="container">
+      <div class="row rounded-5" style="background-color: rgb(237 223 212);">
+        <div class="col-lg-6 col-sm-12">
+          <h1 class="text-center  mb-5 fw-bolder" style="margin-top: 32%; font-family: Caladea, serif;">WHAT WE OFFER</h1>
+        </div>
+        <div class="col-lg-6 mt-5 mb-5 col-sm-12 list1" style="font-family: Caladea, serif;">
+          <h2 class="text-center fw-bolder">Services Provided by Izza Events</h2>
+          <ul class="text-center mt-3">
+            <li class="p-1 fs-4 fw-bolder">Wedding and Engagement</li>
+            <li class="p-1 fs-4 fw-bolder">Corporate Events and Conferences</li>
+            <li class="p-1 fs-4 fw-bolder">Destination Weddings</li>
+            <li class="p-1 fs-4 fw-bolder">Baptism and Naming ceremony</li>
+            <li class="p-1 fs-4 fw-bolder">Fashion Shows</li>
+            <li class="p-1 fs-4 fw-bolder">Product Launch</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5 mb-5">
+      <h2 class="main-head text-center" style="font-family: Alegreya, serif;">WHY US</h2>
+        <h4 class="main-head text-center" style="font-family: Great Vibes, cursive; font-weight: 900;
+        font-style: normal;">Our Premium Features
+         </h4>
+      <div class="row mt-5 fw-bolder" style="font-family: Caladea, serif;">
+        <div class="col-12 col-lg-12 col-md-12 col-sm-12 rounded-4 text-light fw-bolder " id="why-choose" >  
+          <h1 class="mt-5">Why Us</h1>
+          <h6 class="mt-3">LET’S MAKE YOUR EVENTS UNFORGETTABLE</h6>
+          <div class="row mt-3">
+            <div class="col-lg-4 col-md-4 col-sm-12 mt-5 text-center ">
+              <h3>Extensive Experience</h3>
+              <p>With years of experience in the event planning industry, Guruvayur Wedlocks has the expertise to handle all aspects of an event, ensuring a seamless and stress-free experience for clients.</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 mt-5 text-center"> 
+              <h3>One-Stop-Shop</h3>
+              <p>We offer a range of event planning services, from banquet hall accommodations to cultural event management, making us a convenient one-stop-shop for all your event needs.</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 mt-5 text-center">
+              <h3>Attention to Detail</h3>
+              <p>Our team pays close attention to every detail of an event, ensuring that every aspect is executed flawlessly and to the highest standards.</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 mb-5 text-center mt-5">
+              <h3>Personalized Approach</h3>
+              <p>We take a personalized approach to every event, working closely with our clients to understand their vision and bring it to life in a way that is unique and special to them.</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center mb-5 mt-5">
+              <h3>Professionalism</h3>
+              <p>Our team of well-trained and experienced professionals ensures that every event is organized to perfection with a high level of professionalism and ethical standards.</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center mb-5 mt-5">
+              <h3>Customer Satisfaction</h3>
+              <p>Our ultimate goal is to ensure that our clients are satisfied with our services. We have a proven track record of delivering successful events that exceed our clients' expectations.</p>
+            </div>
+          </div>
+          <!-- <img src="./images/kerala-nature-facebook-cover.jpg"
+                 class="img-fluid" style="height: 250px; width: 100%;" alt="">  -->
+             <!-- <h1 style="margin-top: 8%; margin-left: 36%; font-family: 'Times New Roman', Times, serif;" class="text-light" data-aos="fade-down">THRISSUR POORAM</h1>
+             <button class="btn btn-primary rounded" style="margin-left: 45%;" data-aos="fade-up">MORE DETAILS</button> -->
+
+         </div>
+      </div>
+    </div>
+    <!-- <div class="container">
+      <div class="parent">
+        <img class="image1" src="https://via.placeholder.com/50" />
+        <img class="image2" src="https://via.placeholder.com/100" />
+      </div>25.
+    </div> -->
+    <!-- footer -->
+    <div class="container-fluid rounded-5 fw-bolder" id="contact" style="background-color: rgb(237 223 212); font-family: Caladea, serif;">
+      <div class="div-contact row border text-center mt-5">
+           <div class="about col-lg-3 col-md-6 mt-5 ">
+              <h2>Izza Events</h2>
+              <p class="mt-3">We make everything from corporate <br>event planning and wedding <br>parties to customized <br>event packages absolutely <br>memorable! </p>
+  
+          </div>
+          <div class="follow-us col-lg-3 col-md-6 mt-5 ">
+              <h2>Our Services</h2>
+               <p class="mt-3">Wedding Events</p>
+               <p>Corporate Events</p>
+               <p>Product Launch</p>
+               <p>Fashion Shows</p>
+  
+          </div> 
+           <div class="address col-lg-3 col-md-6 mt-5">
+              <h2>Address</h2>
+              <p class="mt-3">Izza Events</p>
+              <p>Near ABC juc</p>
+              <p>Thrissur</p>
+  
+          </div>
+         <div class="cotact-us col-lg-3 col-md-6 mt-5">
+          <h2>Contact Us</h2>
+          <p class="mt-3">Phone : 1234567890</p>
+          <p>E-mail : abc@gmail.com</p>
+  
+         </div> 
+  
+  
+      </div>
+      <footer>
+        <hr>
+          <p id="copyright" class="text-center">&copy; Izza Events 2024</p>
+          <!-- <div class="icon uparrow ">
+            <a href="#link1"><i class="fa-solid fa-angle-up icons brands"></i></a>
+        </div> -->
+           
+      </footer>
+  
+  </div>
+  
+</body>
+<!-- bootsrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- AOS Animation -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+    
+  </script>
+  
+</html>
